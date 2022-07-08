@@ -1,0 +1,32 @@
+name: {{ cookiecutter.repo_name }}
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+  - rapidsai
+dependencies:
+  - python=3.10.
+  - black
+  - pylint
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - tensorboard
+  - h5py
+  - pytest
+  - coverage
+  - pip
+  - mamba
+  - ipython
+  - ipykernel
+  - jupyter
+  - umap-learn
+  - matplotlib
+  - bokeh
+  - pip:
+    - setuptools
+    - gpustat
+    - -e .
