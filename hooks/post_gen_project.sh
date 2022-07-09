@@ -2,6 +2,8 @@
 repo="{{ cookiecutter.repo_name }}"
 mamba env create -f $repo.yml
 
+git init
+
 echo "# Project-specific elements
 data/
 results/
