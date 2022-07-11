@@ -1,4 +1,4 @@
-name: {{ cookiecutter.repo_name }}
+name: { { cookiecutter.repo_name } }
 channels:
   - pytorch
   - nvidia
@@ -9,6 +9,7 @@ dependencies:
   - python=3.10.
   - black
   - pylint
+  - vulture
   - numpy
   - pandas
   - scikit-learn
@@ -27,6 +28,6 @@ dependencies:
   - matplotlib
   - bokeh
   - pip:
-    - setuptools
-    - gpustat
-    - -e .
+      - setuptools
+      - gpustat
+      - -e .
