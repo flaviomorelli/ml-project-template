@@ -1,8 +1,7 @@
 from importlib.resources import path
 import pathlib
 
-HERE = pathlib.Path(".").absolute()
-REPO_ROOT = HERE.parent()
+REPO_ROOT = pathlib.Path(".").absolute()
 data = REPO_ROOT / "data"
 results = REPO_ROOT / "results"
 figures = results / "figures"
