@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 repo="{{ cookiecutter.repo_name }}"
 mamba env create -f $repo.yml
 
